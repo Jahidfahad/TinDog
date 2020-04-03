@@ -74,3 +74,53 @@ h1{
 .icon:hover{
     color: #ff4c68;
 }
+
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color: #ef8172;
+    color:#fff;
+    text-align: center;
+}
+
+#testimonials h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.carousel-indicators li{
+    width: 14px;
+    height:8px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.carousel-indicators li.active{
+    width:24px;
+    height: 8px;
+    background-color:#ff4c68;
+    border: none;
+    border-radius: 7px;
+}
